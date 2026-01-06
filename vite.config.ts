@@ -3,6 +3,8 @@ import react from "@vitejs/plugin-react-swc";
 import path from "path";
 import tailwindcss from "@tailwindcss/vite";
 
+import { viteSingleFile } from "vite-plugin-singlefile";
+
 // https://vitejs.dev/config/
 export default defineConfig(({ mode }) => ({
   base: "",
@@ -10,7 +12,7 @@ export default defineConfig(({ mode }) => ({
     host: "::",
     port: 3000,
   },
-  plugins: [react(), tailwindcss()].filter(Boolean),
+  plugins: [react(), tailwindcss(), viteSingleFile()].filter(Boolean),
   resolve: {
     alias: {
       "@": path.resolve(__dirname, "./src"),
