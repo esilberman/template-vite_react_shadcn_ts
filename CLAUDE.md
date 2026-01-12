@@ -28,7 +28,7 @@ application (SPA) using React Router.
 
 Global styles are in `src/index.css`.
 
-The project includes a comprehensive set of shadcn/ui components:
+UI Components:
 
 - **Forms**: Input, Textarea, Select, Checkbox, Radio Group, Switch, Slider,
   Button, Label, Form, Input OTP
