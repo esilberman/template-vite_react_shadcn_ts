@@ -22,9 +22,7 @@ application (SPA) using React Router.
 ├── vite.config.ts         # Vite configuration
 ```
 
-## Key Features
-
-### 1. Design System
+### Design System
 
 Global styles are in `src/index.css`.
 
@@ -41,22 +39,22 @@ UI Components:
 - **Utilities**: Skeleton, Progress, Accordion, Toggle, Toggle Group
 - **Data Visualization**: Chart, Carousel
 
-### 2. State Management
-
-- **React Query**: For server state management and data fetching
-- **React Context**: For client-side state management
-
-### 3. Routing
-
-- **React Router DOM**: Hash-based routing for SPA navigation
-- Initial routes:
-  - `/` - Home page
-  - `*` - Not found page (catch-all)
-
-### 4. Additional Features
+Additional Features:
 
 - **Date Handling**: date-fns for date manipulation
 - **Forms**: React Hook Form with Zod validation
 - **Icons**: Lucide React icons
 - **Animations**: Tailwind CSS + Framer Motion animations
 - **Theming**: Next Themes for dark/light mode support
+
+### State Management
+
+- **React Query**: For server state management and data fetching
+- **React Context**: For client-side state management
+
+### Routing
+
+- **React Router DOM**: Hash-based routing for SPA navigation
+- Initial routes:
+  - `/` - Home page
+  - `*` - Not found page (catch-all)
